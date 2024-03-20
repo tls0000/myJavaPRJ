@@ -7,8 +7,8 @@ public class practice_01 {
             System.out.println();
         }
 
-        for (int i = 0; i < 5; i++) {
-            for (int a = 4; a > i; a--) {
+        for (int i = 0; i < 4; i++) {
+            for (int a = 3; a > i; a--) {
                 System.out.print('*');
             }
             System.out.println();
