@@ -8,9 +8,10 @@ public class practice_05{
         a = s.nextInt();
 
         if ((a%4 == 0 && a%100 !=0) || (a % 400 == 0))
-            System.out.println("해당 년도는 윤년입니다.");
+            System.out.printf("%d 년은 윤년입니다.\n", a);
         else
-            System.out.println("해당 년도는 윤년이 아닙니다.");
+            System.out.printf("%d 년은 윤년이 아닙니다.\n", a);
         s.close();
     }
 }
+
