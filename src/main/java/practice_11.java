@@ -5,10 +5,10 @@ public class practice_11 {
     Scanner s = new Scanner(System.in);
     int a,b;
 
-    System.out.print("첫 번째 ==> ");
+    System.out.println("첫 번째(a) ==> ");
     a = s.nextInt();
 
-    System.out.print("두 번쨰 ==> ");
+    System.out.println("두 번쨰(b) ==> ");
     b = s.nextInt();
 
     if (a > b) {
@@ -19,5 +19,6 @@ public class practice_11 {
         System.out.println("a는 b보다 작습니다.");
 
     }
+    s.close();
 }
 }
