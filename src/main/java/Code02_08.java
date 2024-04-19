@@ -1,12 +1,9 @@
 public class Code02_08 {
     public static void main(String[] args) {
-        String str1 = "난생처음";
-        String str2 = "자바";
+        String a = "난생처음";
+        String b = "자바";
 
-        System.out.print(str1);
-        System.out.println(str2);
-
-        String result = str1 + str2;
+        String result = a + b;
 
         System.out.println(result);
     }
