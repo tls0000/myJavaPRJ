@@ -28,4 +28,3 @@ public class practice_27 {
         System.out.println("최종 n 값: " + n);
     }
 }
-
