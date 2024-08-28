@@ -19,4 +19,3 @@ public class practice_28 {
         System.out.println(n); // 최종 n 값 출력
     }
 }
-
